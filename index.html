@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind Project</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body class="h-screen bg-slate-700">
+    <nav>
+      <ul class="hidden lg:flex justify-end">
+        <li
+          class="text-slate-300 font-semibold tracking-wide mx-10 mt-5 p-5 hover:underline underline-offset-8 decoration-yellow-400 hover:text-white hidden lg:flex cursor-pointer"
+        >
+          Home
+        </li>
+        <li
+          class="text-slate-300 font-semibold tracking-wide mx-10 mt-5 p-5 hover:underline underline-offset-8 decoration-yellow-400 hover:text-white hidden lg:flex cursor-pointer"
+        >
+          Services
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-5 w-5 mx-2 mt-0.5 text-yellow-400"
+            viewBox="0 0 20 20"
+            fill="currentColor"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+              clip-rule="evenodd"
+            />
+          </svg>
+        </li>
+        <li
+          class="text-slate-300 font-semibold tracking-wide mx-10 mt-5 p-5 hover:underline underline-offset-8 decoration-yellow-400 hover:text-white hidden lg:flex cursor-pointer"
+        >
+          Blog
+        </li>
+        <li
+          class="text-slate-300 font-semibold tracking-wide mx-10 mt-5 p-5 hover:underline underline-offset-8 decoration-yellow-400 hover:text-white hidden lg:flex cursor-pointer"
+        >
+          About
+        </li>
+        <li
+          class="text-slate-300 font-semibold tracking-wide mx-10 mt-5 p-5 hover:underline underline-offset-8 decoration-yellow-400 hover:text-white hidden lg:flex cursor-pointer"
+        >
+          FAQ
+        </li>
+        <li
+          class="bg-yellow-400 text-slate-800 mr-8 mt-5 p-3 border-8 border-[#8A8755] rounded-full hover:bg-yellow-500 hover:text-slate-50 cursor-pointer"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+            />
+          </svg>
+        </li>
+      </ul>
+      <!-- Mobile Menu Button -->
+      <div class="flex lg:hidden justify-end m-2 p-2">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="h-12 w-12 text-yellow-400 border-2 border-yellow-400 rounded-lg cursor-pointer"
+          id="mobileMenuBtn"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+          stroke-width="2"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M4 6h16M4 12h16M4 18h16"
+          />
+        </svg>
+      </div>
+      <!-- Mobile Menu  -->
+      <ul class="hidden text-right lg:hidden" id="mobileMenu">
+        <li
+          class="m-2 mx-4 p-2 border-b-2 border-yellow-400 hover:text-yellow-400 cursor-pointer text-slate-300"
+        >
+          Home
+        </li>
+        <li
+          class="m-2 mx-4 p-2 border-b-2 border-yellow-400 hover:text-yellow-400 cursor-pointer text-slate-300"
+        >
+          Services
+        </li>
+        <li
+          class="m-2 mx-4 p-2 border-b-2 border-yellow-400 hover:text-yellow-400 cursor-pointer text-slate-300"
+        >
+          Blog
+        </li>
+        <li
+          class="m-2 mx-4 p-2 border-b-2 border-yellow-400 hover:text-yellow-400 cursor-pointer text-slate-300"
+        >
+          About
+        </li>
+        <li
+          class="m-2 mx-4 p-2 border-b-2 border-yellow-400 hover:text-yellow-400 cursor-pointer text-slate-300"
+        >
+          FAQ
+        </li>
+      </ul>
+    </nav>
+    <main class="block lg:flex mx-2 justify-around mt-28">
+      <section>
+        <h2 class="text-yellow-400 font-bold tracking-wide text-6xl">
+          Subscribe Now
+        </h2>
+        <h2 class="text-white font-bold tracking-wide text-6xl">
+          to Our Newsletter
+        </h2>
+        <form class="mt-5">
+          <input
+            class="placeholder-slate-400 border-2 focus:outline-none focus:border-yellow-400 focus:ring-1 focus:ring-yellow-400 rounded-3xl p-2 px-6 m-1 mt-4 w-[300px]"
+            type="name"
+            placeholder="Name"
+          /><br />
+          <input
+            class="placeholder-slate-400 border-2 focus:outline-none focus:border-yellow-400 focus:ring-1 focus:ring-yellow-400 rounded-3xl p-2 px-6 m-1 mt-4 w-[300px]"
+            type="email"
+            placeholder="Email"
+          /><br />
+          <button
+            class="bg-yellow-400 text-slate-700 tracking-wide font-medium rounded-3xl p-2 px-6 m-1 mt-4 hover:bg-yellow-500 hover:text-white"
+          >
+            Send
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-4 w-4 inline"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+                clip-rule="evenodd"
+              />
+            </svg>
+          </button>
+        </form>
+      </section>
+      <section class="block lg:flex">
+        <img
+          class="w-[500px]"
+          src="Man-working-on-laptop-icon-illustration-on-transparent-background-PNG.png"
+          alt="image not found"
+        />
+      </section>
+    </main>
+    <footer class="p-2 m-2 border-t-[0.2px] border-slate-500 md:mt-44">
+      <p class="text-center text-slate-400 tracking-wide font-semibold">
+        Copyright &copy; My Site
+      </p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
