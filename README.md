@@ -2,7 +2,7 @@
 
 ### Start Instructions
 
-<b>npm i</b> - to install all dependencies and <b>npm start</b> to start the live server
+<b>npm i</b> to install all dependencies and <b>npm start</b> to start the live server
 
 ### Preview
 
