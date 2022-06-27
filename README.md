@@ -1,9 +1,9 @@
-### Tailwind Project 1
+## Tailwind Project 1
 
-## Start Instructions
+### Start Instructions
 
-"npm i" - to install all dependencies and "npm start" to start the live server
+<b>npm i</b> - to install all dependencies and <b>npm start</b> to start the live server
 
-## Preview
+### Preview
 
 <img src="home.png" />
