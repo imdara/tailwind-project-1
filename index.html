@@ -16,14 +16,8 @@
   <body class="h-screen bg-slate-700">
     <nav>
       <ul class="hidden lg:flex justify-end">
-        <li
-          class="text-slate-300 font-semibold tracking-wide mx-10 mt-5 p-5 hover:underline underline-offset-8 decoration-yellow-400 hover:text-white hidden lg:flex cursor-pointer"
-        >
-          Home
-        </li>
-        <li
-          class="text-slate-300 font-semibold tracking-wide mx-10 mt-5 p-5 hover:underline underline-offset-8 decoration-yellow-400 hover:text-white hidden lg:flex cursor-pointer"
-        >
+        <li class="listItem">Home</li>
+        <li class="listItem">
           Services
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -38,23 +32,11 @@
             />
           </svg>
         </li>
+        <li class="listItem">Blog</li>
+        <li class="listItem">About</li>
+        <li class="listItem">FAQ</li>
         <li
-          class="text-slate-300 font-semibold tracking-wide mx-10 mt-5 p-5 hover:underline underline-offset-8 decoration-yellow-400 hover:text-white hidden lg:flex cursor-pointer"
-        >
-          Blog
-        </li>
-        <li
-          class="text-slate-300 font-semibold tracking-wide mx-10 mt-5 p-5 hover:underline underline-offset-8 decoration-yellow-400 hover:text-white hidden lg:flex cursor-pointer"
-        >
-          About
-        </li>
-        <li
-          class="text-slate-300 font-semibold tracking-wide mx-10 mt-5 p-5 hover:underline underline-offset-8 decoration-yellow-400 hover:text-white hidden lg:flex cursor-pointer"
-        >
-          FAQ
-        </li>
-        <li
-          class="bg-yellow-400 text-slate-800 mr-8 mt-5 p-3 border-8 border-[#8A8755] rounded-full hover:bg-yellow-500 hover:text-slate-50 cursor-pointer"
+          class="bg-yellow-400 text-slate-800 mr-8 mt-5 p-3 border-8 border-yellow-400 hover:border-[#8A8755] rounded-full hover:bg-yellow-500 hover:text-slate-50 cursor-pointer"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -91,32 +73,12 @@
         </svg>
       </div>
       <!-- Mobile Menu  -->
-      <ul class="hidden text-right lg:hidden" id="mobileMenu">
-        <li
-          class="m-2 mx-4 p-2 border-b-2 border-yellow-400 hover:text-yellow-400 cursor-pointer text-slate-300"
-        >
-          Home
-        </li>
-        <li
-          class="m-2 mx-4 p-2 border-b-2 border-yellow-400 hover:text-yellow-400 cursor-pointer text-slate-300"
-        >
-          Services
-        </li>
-        <li
-          class="m-2 mx-4 p-2 border-b-2 border-yellow-400 hover:text-yellow-400 cursor-pointer text-slate-300"
-        >
-          Blog
-        </li>
-        <li
-          class="m-2 mx-4 p-2 border-b-2 border-yellow-400 hover:text-yellow-400 cursor-pointer text-slate-300"
-        >
-          About
-        </li>
-        <li
-          class="m-2 mx-4 p-2 border-b-2 border-yellow-400 hover:text-yellow-400 cursor-pointer text-slate-300"
-        >
-          FAQ
-        </li>
+      <ul class="hidden text-center lg:hidden" id="mobileMenu">
+        <li class="mobileMenuListItem">Home</li>
+        <li class="mobileMenuListItem">Services</li>
+        <li class="mobileMenuListItem">Blog</li>
+        <li class="mobileMenuListItem">About</li>
+        <li class="mobileMenuListItem">FAQ</li>
       </ul>
     </nav>
     <main class="block lg:flex mx-2 justify-around mt-28">

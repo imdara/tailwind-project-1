@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.listItem {
+  @apply text-slate-300 font-semibold tracking-wide mx-10 mt-5 p-5 hover:underline underline-offset-8 decoration-yellow-400 hover:text-white hidden lg:flex cursor-pointer;
+}
+
+.mobileMenuListItem {
+  @apply m-2 mx-4 p-2 hover:text-slate-50 hover:underline underline-offset-8 decoration-yellow-400 cursor-pointer text-slate-400;
+}
